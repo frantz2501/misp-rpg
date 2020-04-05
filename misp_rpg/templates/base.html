@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MISP for JDR</title>
+</head>
+<body>
+    <h1>Bienvenue sur MISP for JDR</h1>
+    <p>Ceci est une plateforme de visualisation de données dans MISP</p>
+    {% block body_block %}
+    <h2>Bloc principal</h2>
+    {% endblock %}
+</body>
+</html>

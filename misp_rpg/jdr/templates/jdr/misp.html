@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block body_block %}
+    <ul>
+        {% for clef, valeur in events %}
+        <li><a href="{% url 'view_event' clef %}">{{ valeur }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

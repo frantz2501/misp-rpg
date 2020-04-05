@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block body_block %}
+    {% for key, value in attributes %}
+    <strong>{{ key }}</strong>
+    <p>{{ value }}</p>
+    {% endfor %}
+{% endblock %}

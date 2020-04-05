@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block body_block %}
+    <h1>{{ event }}</h1>
+    {% for value in attributes %}
+    {% if value ==  event %}
+    {% else %}
+<p>{{ value }}</p>
+    {% endif %}
+    {% endfor %}
+    {% for object_relation, value in objects %}
+<p><strong>{{ object_relation }} : </strong>{{ value }}</p>
+    {% endfor %}
+{% endblock %}
