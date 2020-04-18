@@ -1,8 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from datetime import datetime
 from pymisp import PyMISP, MISPEvent
 from django.http import HttpResponse
 import pandas as pd
+from .models import Article
+
 
 # Create your views here.
 
@@ -12,7 +14,7 @@ def home(request):
     return HttpResponse("""
         <h1>Interface Eclipse phase</h1>
         <p>La mort n'est qu'une péripétie</p>
-        <p>Des dangers autrement plus sérieux vous guettent</p>
+        <p>Des dangers autrement plus sérieux vous guettent</p>        
     """)
 
 def connect_misp():
@@ -59,6 +61,16 @@ def view_by_tags(requests, repors_tag):
         info = z['Event']['info']
         for attr in z['Event']['Attribute']:
             temp.append(attr['value'])
-        final.append([info, temp[0]])
+        final.append([temp[0]])
         temp = []
-    return render(requests, app_name + '/display_reports.html', {'attributes': final})
+    return render(requests, app_name + '/display_reports.html', {'attributes': final, 'info':info})
+
+def liste_articles(requests):
+    articles = Article.objects.all()
+    return render(requests, 'jdr/liste_articles.html', {'articles': articles})
+
+def affiche_article(requests, article_id):
+    art = get_object_or_404(Article, pk=article_id)
+    articles = Article.objects.all()
+    return render(requests, 'jdr/affiche_article.html', {'art': art, \
+                                                         'articles': articles})
