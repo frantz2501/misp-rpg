@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body_block %}
+    <h1>Ajouter un article</h1>
+    {% if validation %}Article ajouté{% endif %}
+    <form action="{% url 'article_nouveau' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Valider" />
+    </form>
+{% endblock %}

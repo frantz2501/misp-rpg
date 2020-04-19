@@ -23,5 +23,6 @@ urlpatterns = [
     path('listevent', views.MISP_list_event),
     path('listreports/<repors_tag>', views.view_by_tags),
     path('articles', views.liste_articles, name='liste_articles'),
-    path('affiche_article/<article_id>', views.affiche_article, name='affiche_article')
+    path('affiche_article/<article_id>', views.affiche_article, name='affiche_article'),
+    path('article_nouveau', views.article_nouveau, name='article_nouveau')
 ]

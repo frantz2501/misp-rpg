@@ -1,10 +1,11 @@
 from django.shortcuts import render, get_object_or_404
 from datetime import datetime
 from pymisp import PyMISP, MISPEvent
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 import pandas as pd
 from .models import Article
-
+from .forms import ArticleForm
+from django.urls import reverse
 
 # Create your views here.
 
@@ -74,3 +75,14 @@ def affiche_article(requests, article_id):
     articles = Article.objects.all()
     return render(requests, 'jdr/affiche_article.html', {'art': art, \
                                                          'articles': articles})
+
+def article_nouveau(request):
+    validation = False
+    #if request.method == 'POST':
+    form = ArticleForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        validation = True
+        return HttpResponseRedirect(reverse('liste_articles'))
+    return render(request, 'jdr/article_nouveau.html', {'form': form, \
+                                                        'validation': validation})

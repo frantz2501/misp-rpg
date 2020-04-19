@@ -18,7 +18,7 @@
         {% block sidebar %}
             <ul class="sidebar-nav">
                 {% for a in articles %}
-                    <li><a href="{% url 'liste_articles' %}">{{ a.titre }}</a></li>
+                    <li><a href="{% url 'affiche_article' a.id %}">{{ a.titre }}</a></li>
                 {% endfor %}
             </ul>
         {% endblock %}
