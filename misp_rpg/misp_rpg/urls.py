@@ -14,10 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('jdr/', include('jdr.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('jdr.urls')),
-    path('jdr/', include('jdr.urls'))
+    path('jdr/', include('jdr.urls')),
+
 ]

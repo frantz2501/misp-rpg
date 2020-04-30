@@ -14,8 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('jdr/', include('jdr.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from . import views
+from django.conf.urls import url
 
 urlpatterns = [
     path('', views.liste_articles),
@@ -24,5 +25,7 @@ urlpatterns = [
     path('listreports/<repors_tag>', views.view_by_tags),
     path('articles', views.liste_articles, name='liste_articles'),
     path('affiche_article/<article_id>', views.affiche_article, name='affiche_article'),
-    path('article_nouveau', views.article_nouveau, name='article_nouveau')
+    path('article_nouveau', views.article_nouveau, name='article_nouveau'),
+    path('categorie_nouveau', views.categorie_nouveau, name='categorie_nouveau'),
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
 ]

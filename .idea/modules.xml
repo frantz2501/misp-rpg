@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/misp-rpg.iml" filepath="$PROJECT_DIR$/.idea/misp-rpg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vfinder/.idea/vfinder.iml" filepath="$PROJECT_DIR$/../vfinder/.idea/vfinder.iml" />
     </modules>
   </component>
 </project>

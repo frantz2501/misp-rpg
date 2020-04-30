@@ -4,7 +4,7 @@ from pymisp import PyMISP, MISPEvent
 from django.http import HttpResponse, HttpResponseRedirect
 import pandas as pd
 from .models import Article
-from .forms import ArticleForm
+from .forms import ArticleForm, CategorieForm
 from django.urls import reverse
 
 # Create your views here.
@@ -78,7 +78,6 @@ def affiche_article(requests, article_id):
 
 def article_nouveau(request):
     validation = False
-    #if request.method == 'POST':
     form = ArticleForm(request.POST or None)
     if form.is_valid():
         form.save()
@@ -86,3 +85,12 @@ def article_nouveau(request):
         return HttpResponseRedirect(reverse('liste_articles'))
     return render(request, 'jdr/article_nouveau.html', {'form': form, \
                                                         'validation': validation})
+def categorie_nouveau(request):
+    validation=False
+    form = CategorieForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        validation=True
+        return HttpResponseRedirect(reverse('liste_articles'))
+    return render(request, 'jdr/categorie_nouveau.html', {'form': form, \
+                                                          'validation': validation})

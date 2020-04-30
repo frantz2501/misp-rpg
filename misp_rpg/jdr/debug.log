@@ -1,0 +1,1234 @@
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"POST /jdr/ckeditor/upload/ HTTP/1.1" 302 0
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1185D0>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F12B310>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F14FF90>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F12B1F0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F12B330>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/', 'username': '', 'next': '/jdr/ckeditor/upload/', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F12B5D0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1185D0>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F12B310>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F14FF90>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F12B1F0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F12B330>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/', 'username': '', 'next': '/jdr/ckeditor/upload/', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F12B5D0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+"GET /admin/login/?next=/jdr/ckeditor/upload/ HTTP/1.1" 200 1931
+(0.001) SELECT "jdr_article"."id", "jdr_article"."titre", "jdr_article"."contenu", "jdr_article"."categorie_id" FROM "jdr_article" ORDER BY "jdr_article"."titre" ASC; args=()
+"GET /jdr/articles HTTP/1.1" 200 1817
+Exception while resolving variable 'articles' in template 'jdr/article_nouveau.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [articles] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F142270>>, 'request': <WSGIRequest: GET '/jdr/article_nouveau'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0F127C90>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F1472D0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F147670>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <ArticleForm bound=False, valid=Unknown, fields=(titre;contenu;categorie)>, 'validation': False}, {'block': <Block Node: sidebar. Contents: [<TextNode: '\n            <ul class="s'>, <For Node: for a in articles, tail_len: 5>, <TextNode: '\n            </ul>\n      '>]>}, {}]
+(0.001) SELECT "jdr_categorie"."id", "jdr_categorie"."nom" FROM "jdr_categorie" ORDER BY "jdr_categorie"."nom" ASC; args=()
+"GET /jdr/article_nouveau HTTP/1.1" 200 3220
+"POST /jdr/ckeditor/upload/ HTTP/1.1" 302 0
+"GET /assets/ckeditor/ckeditor/plugins/pastetools/filter/common.js?t=JB9C HTTP/1.1" 200 7954
+"GET /assets/ckeditor/ckeditor/plugins/pastefromword/filter/default.js?t=JB9C HTTP/1.1" 200 20117
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1AC3D8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F14F9B0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F18E990>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F14F530>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F16ABD0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F16A5F0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1AC618>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F16AEF0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F861BF0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F16A9F0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F16ADB0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F16A570>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1AC3D8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F14F9B0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F18E990>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F14F530>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F16ABD0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F16A5F0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1ACB28>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F12BFF0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F882510>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F12BFD0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F12BDD0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F12BD30>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1AC7C8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F147110>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F869EB0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F1478B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F147FF0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F147B30>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1AC978>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F14FA30>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F87A250>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0EC92A10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F14F030>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F14F6B0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F127B70>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F147E50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F1594D0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F1475D0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F147EF0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F147230>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1AC618>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F16AEF0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F861BF0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F16A9F0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F16ADB0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F16A570>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1ACB28>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F12BFF0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F882510>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F12BFD0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F12BDD0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F12BD30>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1AC7C8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F147110>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F869EB0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F1478B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F147FF0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F147B30>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F1AC978>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F14FA30>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F87A250>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0EC92A10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F14F030>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F14F6B0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F127B70>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F147E50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F1594D0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F1475D0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F147EF0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F147230>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Exception while resolving variable 'articles' in template 'jdr/categorie_nouveau.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [articles] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0EDA54F8>>, 'request': <WSGIRequest: GET '/jdr/categorie_nouveau'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0EDA52B8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0EDCEAB0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0EDA1F30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <CategorieForm bound=False, valid=Unknown, fields=(nom)>, 'validation': False}, {'block': <Block Node: sidebar. Contents: [<TextNode: '\n            <ul class="s'>, <For Node: for a in articles, tail_len: 5>, <TextNode: '\n            </ul>\n      '>]>}, {}]
+"GET /jdr/categorie_nouveau HTTP/1.1" 200 1359
+"GET /static/css/styles.css HTTP/1.1" 200 112
+"GET /static/css/bootstrap.min.css HTTP/1.1" 200 155764
+"GET /static/css/bootstrap.css HTTP/1.1" 200 202385
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\urls\resolvers.py", line 523, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern ''>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'event/<id_event>' [name='view_event']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listevent'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listreports/<repors_tag>'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'articles' [name='liste_articles']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'affiche_article/<article_id>' [name='affiche_article']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'article_nouveau' [name='article_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'categorie_nouveau' [name='categorie_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLResolver <module 'ckeditor_uploader.urls' from 'C:\\Users\\tortu\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\ckeditor_uploader\\urls.py'> (None:None) '^ckeditor/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) 'jdr/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\urls\resolvers.py", line 523, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern ''>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'event/<id_event>' [name='view_event']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listevent'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listreports/<repors_tag>'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'articles' [name='liste_articles']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'affiche_article/<article_id>' [name='affiche_article']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'article_nouveau' [name='article_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'categorie_nouveau' [name='categorie_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLResolver <module 'ckeditor_uploader.urls' from 'C:\\Users\\tortu\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\ckeditor_uploader\\urls.py'> (None:None) '^ckeditor/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) 'jdr/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'ckeditor_uploader.urls' from 'C:\\Users\\tortu\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\ckeditor_uploader\\urls.py'> (None:None) '^ckeditor/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\urls\resolvers.py", line 523, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern ''>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'event/<id_event>' [name='view_event']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listevent'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listreports/<repors_tag>'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'articles' [name='liste_articles']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'affiche_article/<article_id>' [name='affiche_article']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'article_nouveau' [name='article_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'categorie_nouveau' [name='categorie_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLResolver <module 'ckeditor_uploader.urls' from 'C:\\Users\\tortu\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\ckeditor_uploader\\urls.py'> (None:None) '^ckeditor/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) 'jdr/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) 'jdr/'>
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3662
+"GET /favicon.ico HTTP/1.1" 500 59
+(0.002) SELECT "jdr_article"."id", "jdr_article"."titre", "jdr_article"."contenu", "jdr_article"."categorie_id" FROM "jdr_article" ORDER BY "jdr_article"."titre" ASC; args=()
+"GET /jdr/articles HTTP/1.1" 200 1817
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\urls\resolvers.py", line 523, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern ''>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'event/<id_event>' [name='view_event']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listevent'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listreports/<repors_tag>'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'articles' [name='liste_articles']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'affiche_article/<article_id>' [name='affiche_article']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'article_nouveau' [name='article_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'categorie_nouveau' [name='categorie_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLResolver <module 'ckeditor_uploader.urls' from 'C:\\Users\\tortu\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\ckeditor_uploader\\urls.py'> (None:None) '^ckeditor/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) 'jdr/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\urls\resolvers.py", line 523, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern ''>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'event/<id_event>' [name='view_event']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listevent'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listreports/<repors_tag>'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'articles' [name='liste_articles']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'affiche_article/<article_id>' [name='affiche_article']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'article_nouveau' [name='article_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'categorie_nouveau' [name='categorie_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLResolver <module 'ckeditor_uploader.urls' from 'C:\\Users\\tortu\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\ckeditor_uploader\\urls.py'> (None:None) '^ckeditor/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) 'jdr/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'ckeditor_uploader.urls' from 'C:\\Users\\tortu\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\ckeditor_uploader\\urls.py'> (None:None) '^ckeditor/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\urls\resolvers.py", line 523, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern ''>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'event/<id_event>' [name='view_event']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listevent'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'listreports/<repors_tag>'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'articles' [name='liste_articles']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'affiche_article/<article_id>' [name='affiche_article']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'article_nouveau' [name='article_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLPattern 'categorie_nouveau' [name='categorie_nouveau']>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) ''>, <URLResolver <module 'ckeditor_uploader.urls' from 'C:\\Users\\tortu\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\ckeditor_uploader\\urls.py'> (None:None) '^ckeditor/'>], [<URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) 'jdr/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'jdr.urls' from 'C:\\Users\\tortu\\PycharmProjects\\misp-rpg\\misp_rpg\\jdr\\urls.py'> (None:None) 'jdr/'>
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3662
+"GET /favicon.ico HTTP/1.1" 500 59
+Exception while resolving variable 'articles' in template 'jdr/categorie_nouveau.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [articles] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F4E4540>>, 'request': <WSGIRequest: GET '/jdr/categorie_nouveau'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0F4E44F8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0EDCEFD0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0EDDE2D0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <CategorieForm bound=False, valid=Unknown, fields=(nom)>, 'validation': False}, {'block': <Block Node: sidebar. Contents: [<TextNode: '\n            <ul class="s'>, <For Node: for a in articles, tail_len: 5>, <TextNode: '\n            </ul>\n      '>]>}, {}]
+"GET /jdr/categorie_nouveau HTTP/1.1" 200 1359
+Exception while resolving variable 'articles' in template 'jdr/article_nouveau.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'articles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [articles] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F4E4540>>, 'request': <WSGIRequest: GET '/jdr/article_nouveau'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0F4DAA98>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0EDDEF90>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0EDCE5D0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <ArticleForm bound=False, valid=Unknown, fields=(titre;contenu;categorie)>, 'validation': False}, {'block': <Block Node: sidebar. Contents: [<TextNode: '\n            <ul class="s'>, <For Node: for a in articles, tail_len: 5>, <TextNode: '\n            </ul>\n      '>]>}, {}]
+(0.000) SELECT "jdr_categorie"."id", "jdr_categorie"."nom" FROM "jdr_categorie" ORDER BY "jdr_categorie"."nom" ASC; args=()
+"GET /jdr/article_nouveau HTTP/1.1" 200 3220
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css?t=JB9C HTTP/1.1" 200 48058
+"GET /static/ckeditor/ckeditor/lang/fr.js?t=JB9C HTTP/1.1" 200 21813
+"GET /static/ckeditor/ckeditor/styles.js?t=JB9C HTTP/1.1" 200 5579
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=JB9C HTTP/1.1" 200 381
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=JB9C HTTP/1.1" 200 419
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 200 249
+"GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=JB9C HTTP/1.1" 200 1306
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=411985373e HTTP/1.1" 200 12421
+"GET /static/ckeditor/ckeditor/contents.css?t=JB9C HTTP/1.1" 200 3094
+"GET /static/ckeditor/ckeditor/plugins/pastetools/filter/common.js?t=JB9C HTTP/1.1" 200 7954
+"GET /static/ckeditor/ckeditor/plugins/pastefromword/filter/default.js?t=JB9C HTTP/1.1" 200 20117
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"POST /jdr/ckeditor/upload/&responseType=json HTTP/1.1" 302 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F5115D0>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F5006B0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10053E30>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F500910>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10026650>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0EDCE290>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F511BB8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10026F90>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0EDCE310>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10026E70>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10026FB0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x100420B0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F511930>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10026310>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1004AC10>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1002BF90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10026950>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F4AF050>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F4E44F8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10042790>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0FE559F0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10042670>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x100427B0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x10042890>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x1002DB28>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x100265B0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0FE5FBD0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10026490>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10026A10>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x10026AD0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0FE73030>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x1005F570>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0FE76530>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1005F450>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x1005F610>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x1005F830>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F5115D0>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F5006B0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10053E30>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F500910>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10026650>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0EDCE290>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F511BB8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10026F90>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0EDCE310>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10026E70>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10026FB0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x100420B0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F511930>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10026310>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1004AC10>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1002BF90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10026950>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F4AF050>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F4E44F8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10042790>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0FE559F0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10042670>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x100427B0>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x10042890>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x1002DB28>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x100265B0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0FE5FBD0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10026490>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10026A10>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x10026AD0>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0FE73030>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x1005F570>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0FE76530>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1005F450>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x1005F610>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson', 'username': '', 'next': '/jdr/ckeditor/upload/&responseType%3Djson', 'site': <django.contrib.sites.requests.RequestSite object at 0x1005F830>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+"GET /admin/login/?next=/jdr/ckeditor/upload/%26responseType%253Djson HTTP/1.1" 200 1979
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.004) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=JB9C HTTP/1.1" 200 13708
+"GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=JB9C HTTP/1.1" 200 21531
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png HTTP/1.1" 200 506
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png HTTP/1.1" 200 757
+"POST /jdr/ckeditor/upload/ HTTP/1.1" 302 0
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F6DF618>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F6F1470>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F71B0F0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F6F1350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F6F1490>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/', 'username': '', 'next': '/jdr/ckeditor/upload/', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F6F1730>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tortu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0F6DF618>>, 'request': <WSGIRequest: GET '/admin/login/?next=/jdr/ckeditor/upload/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0F6F1470>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0F71B0F0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0F6F1350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x0F6F1490>, 'site_title': "Site d'administration de Django", 'site_header': 'Administration de Django', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Connexion', 'app_path': '/admin/login/?next=/jdr/ckeditor/upload/', 'username': '', 'next': '/jdr/ckeditor/upload/', 'site': <django.contrib.sites.requests.RequestSite object at 0x0F6F1730>, 'site_name': '127.0.0.1:7000', 'LANGUAGE_CODE': 'fr-FR', 'LANGUAGE_BIDI': False}]
+"GET /admin/login/?next=/jdr/ckeditor/upload/ HTTP/1.1" 200 1931
