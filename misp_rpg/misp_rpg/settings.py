@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'jdr',
     'ckeditor',
     'ckeditor_uploader',
+    'objets',
 ]
 
 MIDDLEWARE = [
