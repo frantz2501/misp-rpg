@@ -1,0 +1,15 @@
+{% extends 'base_shade.html' %}
+{% block body_block %}
+    <h1>Maisons</h1>
+    <h2>{{ maisons.nom }}</h2>
+    {% for m in maisons %}
+    <p>{{ m.chef|safe }}</p>
+    <p>{{ m.richesse|safe }}</p>
+    <p>{{ m.secret|safe }}</p>
+    {% endfor %}
+    <h1>Personnes</h1>
+    {% for p in personnes %}
+    <h2>{{ p.nom }}</h2>
+    <p>{{ p.defaut|safe }}</p>
+    {% endfor %}
+{% endblock %}

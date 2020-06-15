@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class JdrConfig(AppConfig):
-    name = 'jdr'
+    name = 'objets'

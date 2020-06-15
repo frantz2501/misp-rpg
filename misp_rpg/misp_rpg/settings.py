@@ -34,7 +34,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'jdr/debug.log',
+            'filename': 'objets/debug.log',
         },
     },
     'loggers': {
@@ -56,9 +56,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'jdr',
+    'objets',
     'ckeditor',
     'ckeditor_uploader',
-    'objets',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Création campagne pour Shade</title>
+    <h1>Outil de création de campagne pour Shade</h1>
+    <p><a href="{% url 'liste' %}">Liste des objets</a> </p>
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+        {% block sidebar %}
+            <ul class="sidebar-nav">
+                <li><a href="{% url 'crea_maison' %}">Créer une maison</a></li>
+                <li><a href="{% url 'crea_personne' %}">Créer une personne</a></li>
+                <li>--------</li>
+                {% for a in maisons %}
+                    <li><a href="{% url 'affiche_maisons' %}">{{ a.titre }}</a></li>
+                {% endfor %}
+                {% for a in personnes %}
+                    <li><a href="{% url 'affiche_personnes' %}">{{ a.titre }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endblock %}
+            </div>
+         <div class="col-sm-10 ">
+        {% block body_block %}
+        {% endblock %}
+            </div>
+    </div>
+  </div>
+</body>
+</html>

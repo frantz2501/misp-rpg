@@ -9,7 +9,7 @@ from django.urls import reverse
 
 # Create your views here.
 
-app_name='jdr/'
+app_name='objets/'
 def home(request):
     """ Exemple de page non valide au niveau HTML pour que l'exemple soit concis """
     return HttpResponse("""

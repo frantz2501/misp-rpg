@@ -22320,3 +22320,15 @@ CREATE INDEX "objets_maison_chef_id_0872274d" ON "objets_maison" ("chef_id"); (p
 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'objets'; args=('objets',)
 (0.000) SELECT "objets_personne"."id", "objets_personne"."nom", "objets_personne"."sexe", "objets_personne"."defaut" FROM "objets_personne"; args=()
 "GET /objets/nouvellemaison/ HTTP/1.1" 200 1930
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Main Django thread has terminated before apps are ready.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Main Django thread has terminated before apps are ready.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Main Django thread has terminated before apps are ready.
+Apps ready_event triggered. Sending autoreload_started signal.

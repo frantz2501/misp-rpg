@@ -1,0 +1,7 @@
+{% extends 'base_shade.html' %}
+{% block body_block %}
+    <h1>{{ maisons.nom }}</h1>
+    <p>{{ maisons.chef|safe }}</p>
+    <p>{{ maisons.richesse|safe }}</p>
+    <p>{{ maisons.secret|safe }}</p>
+{% endblock %}
